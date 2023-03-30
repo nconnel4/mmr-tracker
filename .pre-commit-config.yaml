@@ -1,0 +1,55 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+    - id: no-commit-to-branch
+      args: [--branch, main]
+  - repo: https://github.com/psf/black
+    rev: 23.3.0
+    hooks:
+    - id: black
+  - repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+    - id: flake8
+      additional_dependencies: [
+        "flake8-django-migrations",
+        "flake8-django",
+        "flake8-docstring-checker",
+        "flake8-docstrings",
+        "flake8-pytest",
+        "flake8_simplify",
+        "pep8-naming",
+        "flake8-builtins",
+        "flake8-isort",
+        "flake8-black"
+    ]
+      args: ["--config", "./backend/.flake8"]
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.1.1
+    hooks:
+    - id: mypy
+  - repo: local
+    hooks:
+      - id: poetry-check
+        name: poetry-check
+        entry: bash -c "cd backend && poetry check"
+        language: system
+        require_serial: true
+      - id: poetry-lock
+        name: poetry-lock
+        entry: bash -c "cd backend && poetry lock --check"
+        language: system
+        require_serial: true
+      - id: write-requriments
+        name: create-requirements
+        entry: bash -c "cd backend && sh hooks/write_requirements.sh"
+        language: system
+        require_serial: true
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: v2.40.0
+    hooks:
+      - id: commitizen
