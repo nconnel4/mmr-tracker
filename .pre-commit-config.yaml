@@ -18,8 +18,6 @@ repos:
       additional_dependencies: [
         "flake8-django-migrations",
         "flake8-django",
-        "flake8-docstring-checker",
-        "flake8-docstrings",
         "flake8-pytest",
         "flake8_simplify",
         "pep8-naming",
@@ -32,6 +30,13 @@ repos:
     rev: v1.1.1
     hooks:
     - id: mypy
+      exclude: "[a-zA-Z]*/(migrations)/(.)*"
+      args: ["--config", "./backend/mypy.ini"]
+      additional_dependencies: [
+        "django-stubs",
+        "djangorestframework-stubs",
+        "djangorestframework"
+    ]
   - repo: local
     hooks:
       - id: poetry-check
