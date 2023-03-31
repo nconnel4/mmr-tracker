@@ -1,5 +1,6 @@
 import pytest
 from apps.items.models import Item
+from django.db.utils import IntegrityError
 
 
 @pytest.mark.django_db
@@ -39,3 +40,28 @@ def test_item_with_quantity():
     assert item.item_type == "item"
     assert item.quantity == 30
     assert str(item) == "Hero Bow (bow)"
+
+
+@pytest.mark.django_db
+def test_item_duplicate_group_progress():
+    """Database should throw error if item_group and progress_order are not unique."""
+    item1 = Item(
+        code="heroBow",
+        name="Hero Bow",
+        item_group="bow",
+        progress_order=1,
+        item_type="item",
+        quantity=30,
+    )
+    item2 = Item(
+        code="largeQuiver",
+        name="Hero Bow",
+        item_group="bow",
+        progress_order=1,
+        item_type="item",
+        quantity=30,
+    )
+    item1.save()
+
+    with pytest.raises(IntegrityError):
+        item2.save()
