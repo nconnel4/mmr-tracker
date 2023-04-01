@@ -15,7 +15,7 @@ class Item(models.Model):
     code = models.CharField(max_length=25, unique=True)
     name = models.CharField(max_length=50)
     item_group = models.CharField(max_length=25)
-    progress_order = models.IntegerField()
+    progress_order = models.IntegerField(default=1)
     item_type = models.CharField(max_length=10, choices=ITEM_TYPES)
     quantity = models.IntegerField(blank=True, null=True, default=None)
 

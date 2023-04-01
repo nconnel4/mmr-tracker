@@ -9,7 +9,6 @@ def test_item_without_quantity():
         code="ocarina",
         name="Ocarina of Time",
         item_group="ocarina",
-        progress_order=1,
         item_type="item",
     )
 
@@ -19,7 +18,7 @@ def test_item_without_quantity():
     assert item.progress_order == 1
     assert item.item_type == "item"
     assert not item.quantity
-    assert str(item) == "Ocarina of Time (ocarina)"
+    assert str(item) == "Ocarina of Time [ocarina]"
 
 
 @pytest.mark.django_db
@@ -39,7 +38,7 @@ def test_item_with_quantity():
     assert item.progress_order == 1
     assert item.item_type == "item"
     assert item.quantity == 30
-    assert str(item) == "Hero Bow (bow)"
+    assert str(item) == "Hero Bow [heroBow]"
 
 
 @pytest.mark.django_db
