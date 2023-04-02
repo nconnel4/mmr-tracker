@@ -1,0 +1,26 @@
+- model: items.Item
+  pk: 1
+  fields:
+    code: ocarina
+    name: Ocarina of Time
+    item_group: ocarina
+    progress_order: 1
+    item_type: ITEM
+- model: items.Item
+  pk: 2
+  fields:
+    code: heroBow
+    name: Hero's Bow
+    item_group: bow
+    progress_order: 1
+    item_type: ITEM
+    quantity: 30
+- model: items.Item
+  pk: 3
+  fields:
+    code: largeQuiver
+    name: Hero's Bow
+    item_group: bow
+    progress_order: 2
+    item_type: ITEM
+    quantity: 40
