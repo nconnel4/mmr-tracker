@@ -443,3 +443,64 @@
     name: Fierce Deity's Mask
     item_group: fierceDeityMask
     item_type: MASK
+- model: items.Item
+  fields:
+    code: songTime
+    name: Song of Time
+    item_group: songTime
+    item_type: SONG 
+- model: items.Item
+  fields:
+    code: songHealing
+    name: Song of Healing 
+    item_group: songHealing
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: eponaSong
+    name: Epona's Song
+    item_group: eponaSong
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: songSoaring
+    name: Song of Soaring 
+    item_group: songSoaring
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: songStorms
+    name: Song of Storms 
+    item_group: songStorms
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: sonataAwakening
+    name: Sonata of Awakening 
+    item_group: sonataAwakening
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: goronLullaby
+    name: Goron Lullaby
+    item_group: goronLullaby
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: newWaveBossaNova
+    name: New Wave Bossa Nova 
+    item_group: newWaveBossaNova
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: elegyEmptiness
+    name: Elegy of Emptiness 
+    item_group: elegyEmptiness
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: oathOrder
+    name: Oath to Order 
+    item_group: oathOrder
+    item_type: SONG
+
