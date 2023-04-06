@@ -261,3 +261,185 @@
     item_group: shield
     progress_order: 2
     item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: wallet
+    name: Wallet 
+    item_group: wallet
+    progress_order: 1 
+    item_type: EQUIPMENT
+    quantity: 99
+- model: items.Item
+  fields:
+    code: adultWallet
+    name: Adult's Wallet
+    item_group: wallet
+    progress_order: 2 
+    item_type: EQUIPMENT
+    quantity: 200
+- model: items.Item
+  fields:
+    code: giantWallet
+    name: Giant's Wallet
+    item_group: wallet
+    progress_order: 3 
+    item_type: EQUIPMENT
+    quantity: 500
+- model: items.Item 
+  fields:
+    code: royalWallet
+    name: Royal Wallet
+    item_group: wallet
+    progress_order: 4 
+    item_type: EQUIPMENT
+    quantity: 999
+- model: items.Item
+  fields:
+    code: magic 
+    name: Magic 
+    item_group: magic
+    item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: dekuMask
+    name: Deku Mask
+    item_group: dekuMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: goronMask
+    name: Goron Mask
+    item_group: goronMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: zoraMask
+    name: Zora Mask
+    item_group: zoraMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: postmanHat
+    name: Postman's Hat
+    item_group: postmanHat
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: allNightMask
+    name: All Night Mask
+    item_group: allNightMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: blaskMask
+    name: Blask Mask
+    item_group: blaskMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: stoneMask
+    name: Stone Mask
+    item_group: stoneMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: greatFairyMask
+    name: Great Fairy Mask
+    item_group: greatFairyMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: keatonMask
+    name: Keaton Mask
+    item_group: keatonMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: bremenMask
+    name: Bremen Mask
+    item_group: bremenMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: bunnyHood
+    name: Bunny Hood 
+    item_group: bunnyHood
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: donGeroMask
+    name: Don Gero Mask
+    item_group: donGeroMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: maskScents
+    name: Mask of Scents 
+    item_group: maskScents
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: romaniMask
+    name: Romani's Mask
+    item_group: romaniMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: circusLeaderMask
+    name: Circus Leader's Mask
+    item_group: circusLeaderMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: kafeiMask
+    name: Kafei's Mask
+    item_group: kafeiMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: coupleMask
+    name: Couple's Mask
+    item_group: coupleMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: maskTruth
+    name: Mask of Truth
+    item_group: maskTruth
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: kamaroMask
+    name: Kamaro's Mask
+    item_group: kamaroMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: gibdoMask
+    name: Gibdo Mask
+    item_group: gibdoMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: garoMask
+    name: Garo Mask
+    item_group: garoMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: captainHat
+    name: Captain's Hat
+    item_group: captainHat
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: giantMask
+    name: Giant's Mask
+    item_group: giantMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: fierceDeityMask
+    name: Fierce Deity's Mask
+    item_group: fierceDeityMask
+    item_type: MASK
