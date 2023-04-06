@@ -1,5 +1,4 @@
 - model: items.Item
-  pk: 1
   fields:
     code: ocarina
     name: Ocarina of Time
@@ -7,7 +6,6 @@
     progress_order: 1
     item_type: ITEM
 - model: items.Item
-  pk: 2
   fields:
     code: heroBow
     name: Hero's Bow
@@ -16,7 +14,6 @@
     item_type: ITEM
     quantity: 30
 - model: items.Item
-  pk: 3
   fields:
     code: largeQuiver
     name: Hero's Bow
@@ -24,3 +21,509 @@
     progress_order: 2
     item_type: ITEM
     quantity: 40
+- model: items.Item
+  fields:
+    code: largestQuiver
+    name: Hero's Bow
+    item_group: bow
+    progress_order: 3
+    item_type: ITEM
+    quantity: 50
+- model: items.Item
+  fields:
+    code: fireArrow
+    name: Fire Arrows
+    item_group: fireArrow
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: iceArrow
+    name: Ice Arrows
+    item_group: iceArrow
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: lightArrow
+    name: Light Arrows
+    item_group: lightArrow
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: bombBag
+    name: Bomb Bag
+    item_group: bomb
+    progress_order: 1
+    item_type: ITEM
+    quantity: 20
+- model: items.Item
+  fields:
+    code: bigBombBag
+    name: Bomb Bag
+    item_group: bomb
+    progress_order: 2
+    item_type: ITEM
+    quantity: 30
+- model: items.Item
+  fields:
+    code: biggestBomBag
+    name: Bomb Bag
+    item_group: bomb
+    progress_order: 3
+    item_type: ITEM
+    quantity: 40
+- model: items.Item
+  fields:
+    code: bombchu
+    name: Bombchu
+    item_group: bombchu
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: dekuStick
+    name: Deku Stick
+    item_group: dekuStick
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: dekuNut
+    name: Deku Nut
+    item_group: dekuNut
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: magicBean
+    name: Magic Bean
+    item_group: magicBean
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: keg
+    name: Powder Keg
+    item_group: keg
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: pictobox
+    name: Pictobox
+    item_group: pictobox
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: lens
+    name: Lens Of Truth
+    item_group: lens
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: hookshot
+    name: Hookshot
+    item_group: hookshot
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: greatFairySword
+    name: Great Fairy Sword
+    item_group: greatFairySword
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: bottle1
+    name: Bottle
+    item_group: bottle
+    progress_order: 1
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: bottle2
+    name: Bottle
+    item_group: bottle
+    progress_order: 2
+    item_type: ITEM
+    quantity: 2
+- model: items.Item
+  fields:
+    code: bottle3
+    name: Bottle
+    item_group: bottle
+    progress_order: 3
+    item_type: ITEM
+    quantity: 3
+- model: items.Item
+  fields:
+    code: bottle4
+    name: Bottle
+    item_group: bottle
+    progress_order: 4
+    item_type: ITEM
+    quantity: 4
+- model: items.Item
+  fields:
+    code: bottle5
+    name: Bottle
+    item_group: bottle
+    progress_order: 5
+    item_type: ITEM
+    quantity: 5
+- model: items.Item
+  fields:
+    code: bottle6
+    name: Bottle
+    item_group: bottle
+    progress_order: 6
+    item_type: ITEM
+    quantity: 6
+- model: items.Item
+  fields:
+    code: moonTear
+    name: Moon's Tear
+    item_group: moonTear
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: landTitleDeed
+    name: Land TItle Deed
+    item_group: landTitleDeed
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: swampTitleDeed
+    name: Swamp Title Deed
+    item_group: swampTitleDeed
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: mountainTitleDeed
+    name: Mountain Title Deed
+    item_group: mountainTitleDeed
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: oceanTitleDeed
+    name: Ocean Title Deed
+    item_group: oceanTitleDeed
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: roomKey
+    name: Room Key
+    item_group: roomKey
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: kafeiLetter
+    name: Letter to Kafei
+    item_group: kafeiLetter
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: memoryPendant
+    name: Pendant of Memories
+    item_group: memoryPendant
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: mamaLetter
+    name: Letter to Mama
+    item_group: mamaLetter
+    item_type: ITEM
+- model: items.Item
+  fields:
+    code: kokiriSword
+    name: Kokiri Sword
+    item_group: sword
+    progress_order: 1
+    item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: razorSword
+    name: Razor Sword
+    item_group: sword
+    progress_order: 2
+    item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: guildedSword
+    name: Guilded Sword
+    item_group: sword
+    progress_order: 3
+    item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: hylianShield
+    name: Hylian Shield
+    item_group: shield
+    progress_order: 1
+    item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: mirrorShield
+    name: Mirror Shield
+    item_group: shield
+    progress_order: 2
+    item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: wallet
+    name: Wallet 
+    item_group: wallet
+    progress_order: 1 
+    item_type: EQUIPMENT
+    quantity: 99
+- model: items.Item
+  fields:
+    code: adultWallet
+    name: Adult's Wallet
+    item_group: wallet
+    progress_order: 2 
+    item_type: EQUIPMENT
+    quantity: 200
+- model: items.Item
+  fields:
+    code: giantWallet
+    name: Giant's Wallet
+    item_group: wallet
+    progress_order: 3 
+    item_type: EQUIPMENT
+    quantity: 500
+- model: items.Item 
+  fields:
+    code: royalWallet
+    name: Royal Wallet
+    item_group: wallet
+    progress_order: 4 
+    item_type: EQUIPMENT
+    quantity: 999
+- model: items.Item
+  fields:
+    code: magic 
+    name: Magic 
+    item_group: magic
+    item_type: EQUIPMENT
+- model: items.Item
+  fields:
+    code: dekuMask
+    name: Deku Mask
+    item_group: dekuMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: goronMask
+    name: Goron Mask
+    item_group: goronMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: zoraMask
+    name: Zora Mask
+    item_group: zoraMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: postmanHat
+    name: Postman's Hat
+    item_group: postmanHat
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: allNightMask
+    name: All Night Mask
+    item_group: allNightMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: blaskMask
+    name: Blask Mask
+    item_group: blaskMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: stoneMask
+    name: Stone Mask
+    item_group: stoneMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: greatFairyMask
+    name: Great Fairy Mask
+    item_group: greatFairyMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: keatonMask
+    name: Keaton Mask
+    item_group: keatonMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: bremenMask
+    name: Bremen Mask
+    item_group: bremenMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: bunnyHood
+    name: Bunny Hood 
+    item_group: bunnyHood
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: donGeroMask
+    name: Don Gero Mask
+    item_group: donGeroMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: maskScents
+    name: Mask of Scents 
+    item_group: maskScents
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: romaniMask
+    name: Romani's Mask
+    item_group: romaniMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: circusLeaderMask
+    name: Circus Leader's Mask
+    item_group: circusLeaderMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: kafeiMask
+    name: Kafei's Mask
+    item_group: kafeiMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: coupleMask
+    name: Couple's Mask
+    item_group: coupleMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: maskTruth
+    name: Mask of Truth
+    item_group: maskTruth
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: kamaroMask
+    name: Kamaro's Mask
+    item_group: kamaroMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: gibdoMask
+    name: Gibdo Mask
+    item_group: gibdoMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: garoMask
+    name: Garo Mask
+    item_group: garoMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: captainHat
+    name: Captain's Hat
+    item_group: captainHat
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: giantMask
+    name: Giant's Mask
+    item_group: giantMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: fierceDeityMask
+    name: Fierce Deity's Mask
+    item_group: fierceDeityMask
+    item_type: MASK
+- model: items.Item
+  fields:
+    code: songTime
+    name: Song of Time
+    item_group: songTime
+    item_type: SONG 
+- model: items.Item
+  fields:
+    code: songHealing
+    name: Song of Healing 
+    item_group: songHealing
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: eponaSong
+    name: Epona's Song
+    item_group: eponaSong
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: songSoaring
+    name: Song of Soaring 
+    item_group: songSoaring
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: songStorms
+    name: Song of Storms 
+    item_group: songStorms
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: sonataAwakening
+    name: Sonata of Awakening 
+    item_group: sonataAwakening
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: goronLullaby
+    name: Goron Lullaby
+    item_group: goronLullaby
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: newWaveBossaNova
+    name: New Wave Bossa Nova 
+    item_group: newWaveBossaNova
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: elegyEmptiness
+    name: Elegy of Emptiness 
+    item_group: elegyEmptiness
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: oathOrder
+    name: Oath to Order 
+    item_group: oathOrder
+    item_type: SONG
+- model: items.Item
+  fields:
+    code: odolwaRemain
+    name: Odolwa's Remains 
+    item_group: odolwaRemain
+    item_type: REMAINS
+- model: items.Item
+  fields:
+    code: gohtRemain
+    name: Goht's Remains
+    item_group: gohtRemain
+    item_type: REMAINS
+- model: items.Item
+  fields:
+    code: gyorgRemain
+    name: Gyorg's Remains
+    item_group: gyorgRemain
+    item_type: gyorgRemain
+- model: items.Item
+  fields:
+    code: twinmoldRemain
+    name: Twinmold's Remains
+    item_group: twinmoldRemain
+    item_type: REMAINS
