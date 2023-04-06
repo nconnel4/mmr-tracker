@@ -1,6 +1,8 @@
 asgiref==3.6.0 ; python_version >= "3.10" and python_version < "4.0"
 django==4.1.7 ; python_version >= "3.10" and python_version < "4.0"
 djangorestframework==3.14.0 ; python_version >= "3.10" and python_version < "4.0"
+pyaml==21.10.1 ; python_version >= "3.10" and python_version < "4.0"
 pytz==2023.3 ; python_version >= "3.10" and python_version < "4.0"
+pyyaml==6.0 ; python_version >= "3.10" and python_version < "4.0"
 sqlparse==0.4.3 ; python_version >= "3.10" and python_version < "4.0"
 tzdata==2023.3 ; python_version >= "3.10" and python_version < "4.0" and sys_platform == "win32"

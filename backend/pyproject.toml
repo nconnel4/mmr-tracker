@@ -10,6 +10,7 @@ packages = [{include = "mmr_tracker"}]
 python = "^3.10"
 Django = "^4.1.7"
 djangorestframework = "^3.14.0"
+pyaml = "^21.10.1"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -20,8 +21,6 @@ pytest = "^7.2.2"
 pytest-django = "^4.5.2"
 flake8-builtins = "^2.1.0"
 pep8-naming = "^0.13.3"
-flake8-docstring-checker = "^1.2"
-flake8-docstrings = "^1.7.0"
 flake8-django-migrations = "^0.3.0"
 flake8-django = "^1.1.5"
 flake8-pytest = "^1.4"
