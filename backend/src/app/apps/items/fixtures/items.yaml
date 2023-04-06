@@ -503,4 +503,27 @@
     name: Oath to Order 
     item_group: oathOrder
     item_type: SONG
-
+- model: items.Item
+  fields:
+    code: odolwaRemain
+    name: Odolwa's Remains 
+    item_group: odolwaRemain
+    item_type: REMAINS
+- model: items.Item
+  fields:
+    code: gohtRemain
+    name: Goht's Remains
+    item_group: gohtRemain
+    item_type: REMAINS
+- model: items.Item
+  fields:
+    code: gyorgRemain
+    name: Gyorg's Remains
+    item_group: gyorgRemain
+    item_type: gyorgRemain
+- model: items.Item
+  fields:
+    code: twinmoldRemain
+    name: Twinmold's Remains
+    item_group: twinmoldRemain
+    item_type: REMAINS
